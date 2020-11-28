@@ -4,3 +4,12 @@
   width: 30%;
   float: right
 }
+
+.hobby__music__image,
+.hobby__footbal__image,
+.hobby__fishing__image {
+  width: 80%;
+  margin: $margin;
+  border-radius: 20px;
+}
+

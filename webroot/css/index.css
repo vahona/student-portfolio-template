@@ -58,3 +58,19 @@ h1 {
 .blog__learning {
   width: 30%;
   float: right; }
+
+.hobby__music__image,
+.hobby__footbal__image,
+.hobby__fishing__image {
+  width: 80%;
+  margin: 1rem;
+  border-radius: 20px; }
+
+.hobby {
+  margin: 1rem;
+  background-color: white;
+  border-radius: 20px; }
+  .hobby__music__title, .hobby__footbal__title, .hobby__fishing__title {
+    margin: 1rem; }
+  .hobby__music__paragraph, .hobby__footbal__paragraph, .hobby__fishing__paragraph {
+    margin: 1rem; }

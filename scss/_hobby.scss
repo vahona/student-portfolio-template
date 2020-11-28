@@ -1,0 +1,22 @@
+@import "variable";
+
+.hobby {
+    margin: $margin;
+    @include article;
+
+    &__music__title,
+    &__footbal__title, 
+    &__fishing__title{
+      margin: $margin
+
+    }
+
+    &__music__paragraph,
+    &__footbal__paragraph, 
+    &__fishing__paragraph {
+      margin: $margin
+
+    }
+
+
+}
