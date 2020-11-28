@@ -1,0 +1,35 @@
+@import "variable";
+
+@media (min-width: 800px) {
+  main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+  }
+
+
+  .aboutme {
+    grid-column: 1 / span 3;
+  }
+
+  .blog {
+      grid-column: 2 / span 2;
+  }
+
+  .projects__responsive {
+      grid-column: 2 / span 2;
+  }
+
+  .projects__responsive__bottons {
+    grid-column: 2 / span 1;
+  }
+
+  .projects__responsive__team {
+     grid-column: 3 / span 1;
+  }
+
+  .projects__react {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}

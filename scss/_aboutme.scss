@@ -4,8 +4,9 @@
 .aboutme {
   @include article;
   box-shadow: whitesmoke 10px 10px 10px;
-  width: 90%;
-  margin-inline-start: $margin-inline-start;
+  width: 100%;
+  margin: $margin;
+  padding-bottom: calc(#{$padding-bottom} * 2);
 
   &__container {
     align-items: center;
@@ -20,7 +21,8 @@
   &__profile {
     width: 90%;
     border-radius: 20px;
-    margin: $margin;
+    margin: $margin; 
+    margin-bottom: $margin-bottom;
  }
 
  

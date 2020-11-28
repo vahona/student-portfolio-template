@@ -1,8 +1,8 @@
 @import "variable";
 
 .blog__learning {
-  width: 30%;
-  float: right
+  width: 100%;
+
 }
 
 .hobby__music__image,
@@ -11,5 +11,16 @@
   width: 80%;
   margin: $margin;
   border-radius: 20px;
+}
+
+.projects__responsive__picture--image,
+.projects__responsive__team--screenshoot,
+.projects__responsive__edie--screaanshoot {
+  width: 50%;
+  margin: $margin;
+}
+
+.projects__responsive__team--screenshoot {
+
 }
 

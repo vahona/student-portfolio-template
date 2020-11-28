@@ -8,8 +8,9 @@ h1 {
   background-color: white;
   border-radius: 20px;
   box-shadow: whitesmoke 10px 10px 10px;
-  width: 90%;
-  margin-inline-start: 1rem; }
+  width: 100%;
+  margin: 1rem;
+  padding-bottom: calc(1rem * 2); }
   .aboutme__container {
     align-items: center; }
   .aboutme__container {
@@ -17,7 +18,8 @@ h1 {
   .aboutme__profile {
     width: 90%;
     border-radius: 20px;
-    margin: 1rem; }
+    margin: 1rem;
+    margin-bottom: 1rem; }
   .aboutme__email {
     text-align: center;
     display: flex;
@@ -46,18 +48,20 @@ h1 {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
-  width: 50%; }
+  width: 80%; }
   .frontend__container {
     list-style: none; }
 
 .blog {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2); }
+  padding: calc(1rem * 2);
+  width: 80%; }
+  .blog__container {
+    columns: 2; }
 
 .blog__learning {
-  width: 30%;
-  float: right; }
+  width: 100%; }
 
 .hobby__music__image,
 .hobby__footbal__image,
@@ -66,11 +70,54 @@ h1 {
   margin: 1rem;
   border-radius: 20px; }
 
+.projects__responsive__picture--image,
+.projects__responsive__team--screenshoot,
+.projects__responsive__edie--screaanshoot {
+  width: 50%;
+  margin: 1rem; }
+
 .hobby {
   margin: 1rem;
   background-color: white;
-  border-radius: 20px; }
+  border-radius: 20px;
+  padding-bottom: 1rem; }
   .hobby__music__title, .hobby__footbal__title, .hobby__fishing__title {
     margin: 1rem; }
   .hobby__music__paragraph, .hobby__footbal__paragraph, .hobby__fishing__paragraph {
     margin: 1rem; }
+
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; }
+  .aboutme {
+    grid-column: 1 / span 3; }
+  .blog {
+    grid-column: 2 / span 2; }
+  .projects__responsive {
+    grid-column: 2 / span 2; }
+  .projects__responsive__bottons {
+    grid-column: 2 / span 1; }
+  .projects__responsive__team {
+    grid-column: 3 / span 1; }
+  .projects__react {
+    grid-column: 1;
+    grid-row: 4; } }
+
+.projects__responsive__bottons {
+  background-color: white;
+  border-radius: 20px;
+  padding: calc(1rem * 2);
+  padding-top: calc(1rem / 2); }
+
+.projects__responsive__picture,
+.projects__responsive__team,
+.projects__responsive__edie {
+  background-color: white;
+  border-radius: 20px;
+  margin: 1rem;
+  padding-bottom: 1rem; }
+
+.projects__responsive__container {
+  display: grid; }

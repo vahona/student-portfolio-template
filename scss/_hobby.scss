@@ -3,6 +3,7 @@
 .hobby {
     margin: $margin;
     @include article;
+    padding-bottom: $padding-bottom;
 
     &__music__title,
     &__footbal__title, 

@@ -1,0 +1,27 @@
+@import "variable";
+
+
+.projects__responsive__bottons {
+  @include article;
+  padding: calc(#{$padding} * 2);
+  padding-top: calc(#{$padding} / 2);
+
+}
+
+.projects__responsive__picture,
+.projects__responsive__team,
+.projects__responsive__edie {
+    @include article;
+    margin: $margin;
+    padding-bottom: $padding-bottom;
+}
+
+.projects__responsive__picture {
+    // display: flex;
+}
+
+.projects__responsive__container {
+    display: grid;
+   
+    
+}
