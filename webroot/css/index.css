@@ -1,0 +1,42 @@
+html {
+  background-color: #FAFAD2; }
+
+h1 {
+  text-align: center; }
+
+.aboutme {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: whitesmoke 10px 10px 10px;
+  width: 90%;
+  margin-inline-start: 1rem; }
+  .aboutme__container {
+    align-items: center; }
+  .aboutme__container {
+    padding: calc(1rem * 2); }
+  .aboutme__profile {
+    width: 90%;
+    border-radius: 20px;
+    margin: 1rem; }
+  .aboutme__email {
+    text-align: center;
+    display: flex;
+    align-items: center; }
+  .aboutme__linkcontact {
+    text-align: center;
+    align-items: center;
+    justify-content: center; }
+  .aboutme__contact {
+    text-align: center;
+    display: flex;
+    align-items: center; }
+
+@media (min-width: 800px) {
+  .aboutme {
+    width: 80%; }
+    .aboutme__profile {
+      width: 30%; }
+    .aboutme__profile {
+      float: left; }
+    .aboutme__contactlink {
+      columns: 2; } }

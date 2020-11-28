@@ -1,0 +1,72 @@
+@import "variable";
+@import "mixin";
+
+.aboutme {
+  @include article;
+  box-shadow: whitesmoke 10px 10px 10px;
+  width: 90%;
+  margin-inline-start: $margin-inline-start;
+
+  &__container {
+    align-items: center;
+
+  }
+
+  &__container {
+  padding: calc(#{$padding} * 2);
+
+  }
+
+  &__profile {
+    width: 90%;
+    border-radius: 20px;
+    margin: $margin;
+ }
+
+ 
+  &__email {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  
+  }
+
+  &__linkcontact {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  &__contact {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+
+ @media (min-width: 800px) {
+
+  .aboutme {
+    width: 80% ;
+    
+
+   &__profile {
+     width: 30%;
+
+   }
+
+   &__profile {
+     float: left;
+   }
+   &__contactlink {
+     columns: 2;
+   }
+}
+
+
+  
+ }

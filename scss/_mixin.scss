@@ -1,0 +1,14 @@
+@import "variable";
+
+@mixin article {
+    background-color: white;
+    border-radius: 20px; 
+}
+
+@mixin fonts {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px
+
+}

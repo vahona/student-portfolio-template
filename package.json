@@ -4,7 +4,7 @@
   "description": "Challenge: Create all the elements in the given designs and then create a portfolio with your own content. You can create your own layout. Don’t look at the existing solution. Fulfill user stories below:",
   "main": "index.js",
   "scripts": {
-     "scss": "node-sass scss -o webroot/css",
+    "scss": "node-sass scss -o webroot/css",
     "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
     "start": "npm run scss:watch"
   },
