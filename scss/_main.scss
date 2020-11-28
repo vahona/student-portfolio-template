@@ -32,4 +32,8 @@
     grid-column: 1;
     grid-row: 4;
   }
+
+  .projects__react {
+    grid-column: 1 / span 3;
+  }
 }

@@ -2,8 +2,6 @@
 
 .frontend {
   @include article;
-  padding: calc(#{$padding} * 2);
-  margin: $margin;
   width: 80%;
   
   &__container {

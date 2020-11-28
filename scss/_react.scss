@@ -1,1 +1,6 @@
-@import "variable"
+@import "variable";
+
+.projects__react__bottoms {
+    @include article;
+    padding-top: calc(#{$padding-top} / 2);
+}

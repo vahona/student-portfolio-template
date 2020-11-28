@@ -3,7 +3,6 @@
 
 .projects__responsive__bottons {
   @include article;
-  padding: calc(#{$padding} * 2);
   padding-top: calc(#{$padding} / 2);
 
 }
@@ -22,6 +21,13 @@
 
 .projects__responsive__container {
     display: grid;
-   
     
+}
+
+.projects__responsive__react {
+    background-color: white;
+    border: rgb(175, 175, 233) 1px solid;
+    border-radius: 10px;
+    padding: calc(#{$padding} /2);
+    margin-left: $margin-left;
 }

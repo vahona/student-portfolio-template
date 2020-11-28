@@ -7,6 +7,8 @@ h1 {
 .aboutme {
   background-color: white;
   border-radius: 20px;
+  padding: calc(1rem * 2);
+  margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   width: 100%;
   margin: 1rem;
@@ -56,6 +58,7 @@ h1 {
   background-color: white;
   border-radius: 20px;
   padding: calc(1rem * 2);
+  margin: 1rem;
   width: 80%; }
   .blog__container {
     columns: 2; }
@@ -77,9 +80,10 @@ h1 {
   margin: 1rem; }
 
 .hobby {
-  margin: 1rem;
   background-color: white;
   border-radius: 20px;
+  padding: calc(1rem * 2);
+  margin: 1rem;
   padding-bottom: 1rem; }
   .hobby__music__title, .hobby__footbal__title, .hobby__fishing__title {
     margin: 1rem; }
@@ -103,12 +107,22 @@ h1 {
     grid-column: 3 / span 1; }
   .projects__react {
     grid-column: 1;
-    grid-row: 4; } }
+    grid-row: 4; }
+  .projects__react {
+    grid-column: 1 / span 3; } }
+
+.projects__react__bottoms {
+  background-color: white;
+  border-radius: 20px;
+  padding: calc(1rem * 2);
+  margin: 1rem;
+  padding-top: calc(1rem / 2); }
 
 .projects__responsive__bottons {
   background-color: white;
   border-radius: 20px;
   padding: calc(1rem * 2);
+  margin: 1rem;
   padding-top: calc(1rem / 2); }
 
 .projects__responsive__picture,
@@ -116,8 +130,17 @@ h1 {
 .projects__responsive__edie {
   background-color: white;
   border-radius: 20px;
+  padding: calc(1rem * 2);
+  margin: 1rem;
   margin: 1rem;
   padding-bottom: 1rem; }
 
 .projects__responsive__container {
   display: grid; }
+
+.projects__responsive__react {
+  background-color: white;
+  border: #afafe9 1px solid;
+  border-radius: 10px;
+  padding: calc(1rem /2);
+  margin-left: 1rem; }

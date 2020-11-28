@@ -1,7 +1,6 @@
 @import "variable";
 
 .hobby {
-    margin: $margin;
     @include article;
     padding-bottom: $padding-bottom;
 
