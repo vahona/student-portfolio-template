@@ -1,0 +1,13 @@
+@import "variable";
+
+.frontend {
+  @include article;
+  padding: calc(#{$padding} * 2);
+  margin: $margin;
+  width: 50%;
+  
+  &__container {
+    list-style: none;
+  }
+}
+

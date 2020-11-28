@@ -1,0 +1,6 @@
+@import "variable";
+
+.blog {
+    @include article;
+    padding: calc(#{$padding} * 2);
+}
