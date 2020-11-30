@@ -1,6 +1,16 @@
 @import "variable";
 
+.projects__react__quote,
+.projects__react__movie {
+    @include article
+}
+
 .projects__react__bottoms {
     @include article;
     padding-top: calc(#{$padding-top} / 2);
+}
+
+.projects__react__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
