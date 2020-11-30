@@ -33,7 +33,10 @@
     grid-row: 4;
   }
 
-  .projects__react {
+  .projects__react,
+  .project__javascript {
     grid-column: 1 / span 3;
   }
+
+  
 }

@@ -83,7 +83,9 @@ body {
 .projects__responsive__team--screenshoot,
 .projects__responsive__edie--screaanshoot,
 .projects__react__quote--screen,
-.projects__react__movie--screen {
+.projects__react__movie--screen,
+.project__javascript__image,
+.projects__javascript__images--image {
   width: 50%;
   margin: 1rem; }
 
@@ -116,7 +118,8 @@ body {
   .projects__react {
     grid-column: 1;
     grid-row: 4; }
-  .projects__react {
+  .projects__react,
+  .project__javascript {
     grid-column: 1 / span 3; } }
 
 .projects__react__quote,
@@ -164,3 +167,21 @@ body {
   border-radius: 10px;
   padding: calc(1rem /2);
   margin-left: 1rem; }
+
+.projects__javascript__bottoms {
+  background-color: white;
+  border-radius: 20px;
+  padding: calc(1rem * 2);
+  margin: 1rem;
+  padding-top: calc(1rem / 2); }
+
+.projects__javascript__expressfood,
+.projects__javascript__images {
+  background-color: white;
+  border-radius: 20px;
+  padding: calc(1rem * 2);
+  margin: 1rem; }
+
+.projects__javascript__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }

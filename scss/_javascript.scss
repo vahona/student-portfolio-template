@@ -1,0 +1,17 @@
+@import "variable";
+
+.projects__javascript__bottoms {
+    @include article;
+    padding-top: calc(#{$padding-top} / 2);
+}
+
+.projects__javascript__expressfood,
+.projects__javascript__images {
+     @include article
+}
+
+.projects__javascript__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
