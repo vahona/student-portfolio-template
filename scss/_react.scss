@@ -10,7 +10,12 @@
     padding-top: calc(#{$padding-top} / 2);
 }
 
-.projects__react__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+@media (min-width: 800px) {
+
+    .projects__react__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
