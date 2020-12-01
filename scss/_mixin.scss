@@ -5,6 +5,7 @@
     border-radius: 20px; 
     padding: calc(#{$padding} * 2);
     margin: $margin;
+    box-shadow: whitesmoke 10px 10px 10px;
 }
 
 @mixin fonts {

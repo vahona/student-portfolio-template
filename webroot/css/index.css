@@ -1,15 +1,45 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Regular.woff") format(woff), url("../webroot/fonts/AnyConv.com__Montserrat-Regular.woff2") format(woff2); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../webroot/fonts/Montserrat-Bold.woff") format(woff), url("../webroot/fonts/AnyConv.com__Montserrat-Bold.woff2") format(woff2); }
+
+@font-face {
+  font-family: Poppins;
+  src: url("../webroot/fonts/fontspoppins_woff/Poppins-Regular.woff") format(woff), url("../webroot/fonts/fontspoppins_woff/Poppins-Regular.woff2") format(woff2); }
+
+@font-face {
+  font-family: Poppins;
+  src: url("../webroot/fonts/fontspoppins_woff/Poppins-Bold.woff") format(woff), url("../webroot/fonts/fontspoppins_woff/Poppins-Bold.woff2") format(woff2); }
+
+@font-face {
+  font-family: Heebo;
+  src: url("../webroot/fonts/fontsheebo_woof/Heebo-Bold.woff") format(woff), url("../webroot/fonts/AnyConv.com__Montserrat-Regular.woff2") format(woff2); }
+
+@font-face {
+  font-family: Heebo;
+  src: url("../webroot/fonts/fontsheebo_woof/Heebo-Regular.woff") format(woff), url("../webroot/fonts/fontsheebo_woof/Heebo-Bold.woff") format(woff2); }
+
 html {
   background-color: #ffffff; }
 
 h1 {
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 1rem; }
 
 body {
-  max-width: 1144px;
+  max-width: 1350px;
   margin-inline-end: auto;
   margin-inline-start: auto;
   background-color: #FAFAD2;
+  padding-bottom: calc(1rem * 2);
   margin-top: 0; }
 
 .aboutme {
@@ -23,6 +53,12 @@ body {
     align-items: center; }
   .aboutme__container {
     padding: calc(1rem * 2); }
+  .aboutme__caracter, .aboutme__moreinformation {
+    color: silver;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; }
   .aboutme__profile {
     width: 90%;
     border-radius: 20px;
@@ -56,6 +92,7 @@ body {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   width: 80%; }
   .frontend__container {
     list-style: none; }
@@ -65,6 +102,7 @@ body {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   width: 80%; }
   .blog__container {
     columns: 2; }
@@ -94,6 +132,7 @@ body {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   padding-bottom: 1rem; }
   .hobby__music__title, .hobby__footbal__title, .hobby__fishing__title {
     margin: 1rem; }
@@ -127,13 +166,15 @@ body {
   background-color: white;
   border-radius: 20px;
   padding: calc(1rem * 2);
-  margin: 1rem; }
+  margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px; }
 
 .projects__react__bottoms {
   background-color: white;
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
 
 @media (min-width: 800px) {
@@ -146,6 +187,7 @@ body {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
 
 .projects__responsive__picture,
@@ -155,6 +197,7 @@ body {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   margin: 1rem;
   padding-bottom: 1rem; }
 
@@ -173,6 +216,7 @@ body {
   border-radius: 20px;
   padding: calc(1rem * 2);
   margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
 
 .projects__javascript__expressfood,
@@ -180,8 +224,16 @@ body {
   background-color: white;
   border-radius: 20px;
   padding: calc(1rem * 2);
-  margin: 1rem; }
+  margin: 1rem;
+  box-shadow: whitesmoke 10px 10px 10px; }
 
 .projects__javascript__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
+
+.project__footer {
+  background-color: #FFDAB9;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: calc(1rem * 2);
+  box-shadow: #BDB76B 10px 10px 10px; }

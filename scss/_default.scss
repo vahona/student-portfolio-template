@@ -7,14 +7,19 @@ html {
 h1 {
     text-align: center;
     margin: 0;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding: $padding;
 }
 
 body {
-    max-width:  1144px;
+    max-width:  1350px;
     margin-inline-end: auto;
     margin-inline-start: auto;
     background-color: #FAFAD2;
-    // padding-top: 2rem;
+    padding-bottom: calc(#{$padding-bottom} * 2);
     margin-top: 0;
     
 }
