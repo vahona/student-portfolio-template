@@ -5,5 +5,26 @@
     border-radius: 10px;
     margin: $margin;
     padding: calc(#{$padding} * 2);
-    box-shadow: #BDB76B 10px 10px 10px;;
+    box-shadow: #BDB76B 10px 10px 10px;
+
+    &__list {
+        list-style: $list-style;
+    }
+
+    &__list--anchore {
+        text-decoration: $text-decoration;
+        color: rgb(150, 150, 150);
+    }
+}
+
+.github {
+
+}
+
+.facebook {
+  background-image: url(../images/faceblue.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 70px;
+   
 }

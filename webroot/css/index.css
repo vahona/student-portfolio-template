@@ -237,3 +237,14 @@ body {
   margin: 1rem;
   padding: calc(1rem * 2);
   box-shadow: #BDB76B 10px 10px 10px; }
+  .project__footer__list {
+    list-style: none; }
+  .project__footer__list--anchore {
+    text-decoration: none;
+    color: #969696; }
+
+.facebook {
+  background-image: url(../images/faceblue.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 70px; }
