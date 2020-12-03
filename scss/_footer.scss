@@ -13,16 +13,35 @@
 
     &__list--anchore {
         text-decoration: $text-decoration;
-        color: rgb(150, 150, 150);
+        color: transparent;
+        padding: 1rem;
+        
     }
+
+    &__lists {
+      display: flex;
+    }
+
+    &__list {
+        margin: $margin;
+        
+    }
+
+   
 }
 
 .github {
+  background-image: url(../images/github.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 70px;
 
 }
 
+
+
 .facebook {
-  background-image: url(../images/faceblue.png);
+  background-image: url(../images/facebook.png);
   background-repeat: no-repeat;
   background-size: 50%;
   width: 70px;

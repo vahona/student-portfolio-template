@@ -242,10 +242,21 @@ body {
     list-style: none; }
   .project__footer__list--anchore {
     text-decoration: none;
-    color: #969696; }
+    color: transparent;
+    padding: 1rem; }
+  .project__footer__lists {
+    display: flex; }
+  .project__footer__list {
+    margin: 1rem; }
+
+.github {
+  background-image: url(../images/github.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 70px; }
 
 .facebook {
-  background-image: url(../images/faceblue.png);
+  background-image: url(../images/facebook.png);
   background-repeat: no-repeat;
   background-size: 50%;
   width: 70px; }
