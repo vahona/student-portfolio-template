@@ -48,11 +48,12 @@ body {
   padding: calc(1rem * 2);
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
-  width: 100%; }
+  width: 90%;
+  padding: 0; }
   .aboutme__container {
     align-items: center; }
   .aboutme__container {
-    padding: calc(1rem * 2); }
+    padding: 1rem; }
   .aboutme__caracter, .aboutme__moreinformation {
     color: silver;
     font-family: Roboto;

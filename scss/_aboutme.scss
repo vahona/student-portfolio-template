@@ -3,7 +3,8 @@
 
 .aboutme {
   @include article;
-  width: 100%;
+  width: 90%;
+  padding: 0;
 
   &__container {
     align-items: center;
@@ -11,7 +12,7 @@
   }
 
   &__container {
-  padding: calc(#{$padding} * 2);
+  padding: $padding;
 
   }
 
