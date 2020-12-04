@@ -10,6 +10,10 @@
     padding-top: calc(#{$padding-top} / 2);
 }
 
+.projects__react__bottoms--site {
+    @include buttons
+}
+
 
 @media (min-width: 800px) {
 

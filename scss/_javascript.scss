@@ -7,7 +7,11 @@
 
 .projects__javascript__expressfood,
 .projects__javascript__images {
-     @include article
+    @include article
+}
+
+.projects__javascript__bottoms--site {
+    @include buttons
 }
 
 @media (min-width: 800px)  {

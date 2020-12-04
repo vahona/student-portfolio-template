@@ -178,6 +178,13 @@ body {
   box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
 
+.projects__react__bottoms--site {
+  background-color: white;
+  border: #afafe9 1px solid;
+  border-radius: 10px;
+  padding: calc(1rem /2);
+  margin-left: 1rem; }
+
 @media (min-width: 800px) {
   .projects__react__container {
     display: grid;
@@ -205,7 +212,7 @@ body {
 .projects__responsive__container {
   display: grid; }
 
-.projects__responsive__react {
+.projects__responsive__bottons--site {
   background-color: white;
   border: #afafe9 1px solid;
   border-radius: 10px;
@@ -227,6 +234,13 @@ body {
   padding: calc(1rem * 2);
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px; }
+
+.projects__javascript__bottoms--site {
+  background-color: white;
+  border: #afafe9 1px solid;
+  border-radius: 10px;
+  padding: calc(1rem /2);
+  margin-left: 1rem; }
 
 @media (min-width: 800px) {
   .projects__javascript__container {

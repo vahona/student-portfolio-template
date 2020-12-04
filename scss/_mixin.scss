@@ -15,3 +15,11 @@
     line-height: 19.5px
 
 }
+
+@mixin buttons {
+    background-color: white;
+    border: rgb(175, 175, 233) 1px solid;
+    border-radius: 10px;
+    padding: calc(#{$padding} /2);
+    margin-left: $margin-left;
+}

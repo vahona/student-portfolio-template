@@ -24,10 +24,6 @@
     
 }
 
-.projects__responsive__react {
-    background-color: white;
-    border: rgb(175, 175, 233) 1px solid;
-    border-radius: 10px;
-    padding: calc(#{$padding} /2);
-    margin-left: $margin-left;
+.projects__responsive__bottons--site {
+    @include buttons
 }
