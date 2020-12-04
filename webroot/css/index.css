@@ -228,9 +228,10 @@ body {
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px; }
 
-.projects__javascript__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 800px) {
+  .projects__javascript__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
 
 .project__footer {
   background-color: #FFDAB9;

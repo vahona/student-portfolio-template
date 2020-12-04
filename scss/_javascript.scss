@@ -10,8 +10,12 @@
      @include article
 }
 
+@media (min-width: 800px)  {
+
 .projects__javascript__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
 }
 
