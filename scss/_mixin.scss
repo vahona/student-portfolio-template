@@ -3,7 +3,7 @@
 @mixin article {
     background-color: white;
     border-radius: 20px; 
-    padding: calc(#{$padding} * 2);
+    padding: $padding;
     margin: $margin;
     box-shadow: whitesmoke 10px 10px 10px;
 }

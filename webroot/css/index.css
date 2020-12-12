@@ -45,7 +45,7 @@ body {
 .aboutme {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   width: 90%;
@@ -91,7 +91,7 @@ body {
 .frontend {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   width: 80%; }
@@ -101,7 +101,7 @@ body {
 .blog {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   width: 80%; }
@@ -131,7 +131,7 @@ body {
 .hobby {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   padding-bottom: 1rem; }
@@ -166,14 +166,14 @@ body {
 .projects__react__movie {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px; }
 
 .projects__react__bottoms {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
@@ -193,7 +193,7 @@ body {
 .projects__responsive__bottons {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
@@ -203,7 +203,7 @@ body {
 .projects__responsive__edie {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   margin: 1rem;
@@ -222,7 +222,7 @@ body {
 .projects__javascript__bottoms {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px;
   padding-top: calc(1rem / 2); }
@@ -231,7 +231,7 @@ body {
 .projects__javascript__images {
   background-color: white;
   border-radius: 20px;
-  padding: calc(1rem * 2);
+  padding: 1rem;
   margin: 1rem;
   box-shadow: whitesmoke 10px 10px 10px; }
 
@@ -266,12 +266,6 @@ body {
 
 .github {
   background-image: url(../images/github.png);
-  background-repeat: no-repeat;
-  background-size: 50%;
-  width: 70px; }
-
-.facebook {
-  background-image: url(../images/facebook.png);
   background-repeat: no-repeat;
   background-size: 50%;
   width: 70px; }
